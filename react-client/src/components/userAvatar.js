@@ -1,5 +1,5 @@
 import Avatar from "@mui/material/Avatar";
-import React, { useState } from "react";
+import React from "react";
 
 export default function UserAvatar({ userName, onClick }) {
   return <Avatar {...stringAvatar(userName)} onClick={() => onClick()} />;
